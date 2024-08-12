@@ -6,14 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="UTF-8" />
   <link rel="stylesheet" href="./input.css">
-<link rel="stylesheet" href="/tailwindcssa1ef78ac3fa5f8f9.css">
 
 </head>
 <body>
   <div id="main"></div>
   <script type="module">
-    import init from "/./assets/dioxus/dioxus-sample.js";
-    init("/./assets/dioxus/dioxus-sample_bg.wasm").then(wasm => {
+    import init from "/./assets/dioxus/front.js";
+    init("/./assets/dioxus/front_bg.wasm").then(wasm => {
       if (wasm.__wbindgen_start == undefined) {
         wasm.main();
       }

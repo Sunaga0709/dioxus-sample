@@ -1,10 +1,13 @@
 [package]
-name = "dioxus-sample"
+name = "front"
 version = "0.1.0"
-authors = ["Sunaga0709 <ts19980709@gmail.com>"]
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "web"
+path = "src/main.rs"
 
 [dependencies]
 

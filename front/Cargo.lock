@@ -640,15 +640,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "dioxus-sample"
-version = "0.1.0"
-dependencies = [
- "dioxus",
- "dioxus-logger",
- "manganis",
-]
-
-[[package]]
 name = "dioxus-signals"
 version = "0.5.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -819,6 +810,15 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "e13624c2627564efccf4934284bdd98cbaa14e79b0b5a141218e507b3a823456"
 dependencies = [
  "percent-encoding",
+]
+
+[[package]]
+name = "front"
+version = "0.1.0"
+dependencies = [
+ "dioxus",
+ "dioxus-logger",
+ "manganis",
 ]
 
 [[package]]
@@ -1944,9 +1944,9 @@ dependencies = [
 
 [[package]]
 name = "serde_json"
-version = "1.0.122"
+version = "1.0.123"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "784b6203951c57ff748476b126ccb5e8e2959a5c19e5c617ab1956be3dbc68da"
+checksum = "a11b3b6ce5cfd25b9759a24c3ed4bf24e23893866863547de4655518c951bcd4"
 dependencies = [
  "itoa",
  "memchr",
